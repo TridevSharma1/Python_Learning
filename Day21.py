@@ -123,3 +123,6 @@ for i in range(len(vertices)):
     x2, y2 = vertices[(i + 1) % len(vertices)]  # Wrap around to the first vertex
     area += (x1 * y2) - (x2 * y1)
 print("Area:", abs(area) / 2)
+
+# tree system
+   
