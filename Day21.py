@@ -125,11 +125,11 @@ for i in range(len(vertices)):
 print("Area:", abs(area) / 2)
 
 # infinite loop using while loop
-count = 0
+count = 6
 while True:
     print("This is an infinite loop. Count:", count)
     count += 1
-    if count >= 5:  # Break condition to avoid actual infinite loop during testing
+    if count < 5:  # Break condition to avoid actual infinite loop during testing
         break
 
 
