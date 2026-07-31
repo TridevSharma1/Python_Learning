@@ -124,5 +124,12 @@ for i in range(len(vertices)):
     area += (x1 * y2) - (x2 * y1)
 print("Area:", abs(area) / 2)
 
-# tree system
-   
+# infinite loop using while loop
+count = 0
+while True:
+    print("This is an infinite loop. Count:", count)
+    count += 1
+    if count >= 5:  # Break condition to avoid actual infinite loop during testing
+        break
+
+
