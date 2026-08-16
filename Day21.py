@@ -132,4 +132,9 @@ while True:
     if count < 5:  # Break condition to avoid actual infinite loop during testing
         break
 
+#tree method
+rows = 5
+for i in range(rows):
+    print(' ' * (rows - i - 1) + '*' * (2 * i + 1))
+
 
