@@ -137,4 +137,9 @@ rows = 5
 for i in range(rows):
     print(' ' * (rows - i - 1) + '*' * (2 * i + 1))
 
+#Name With Star Pattern
+name = "Tridev"
+for i in range(len(name)):
+    print(' ' * (len(name) - i - 1) + name[:i + 1] + '*' * (2 * i + 1))
+
 
